@@ -1,0 +1,215 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    width: 100%;
+    height: 100vh;   /*vh=referente ao viewport*/
+    background-color: rgb(235, 235, 235);
+    background-size: cover;
+}
+
+.video{
+    margin-top: 70px;
+    padding-left: 370px;
+    transition: 1.5s;
+    background-image: url(madera.jpg);
+}
+
+.menu{
+    text-align: right;
+}
+
+.nav{
+    height: 85px;
+}
+
+ul{
+    margin: auto;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    background: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.685), rgba(143, 137, 137, 0.116));
+    list-style-type: none; /*mudar estilo e tipo da lista*/
+}
+
+li{
+    margin-top: 30px;
+    display: inline-block; /*deixar todos os li na mesma linha*/
+}
+
+li a{
+    text-decoration: none;
+    color: dodgerblue;
+    text-transform: uppercase; /*separação dos textos, e deixa em caixa alta*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    transition: 1s; /*efeito da transição e o tempo*/
+    padding: 25px 30px; /*padding dado em sentido horário: top, right, bottom e left*/
+}
+
+.forca{
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.forca:hover{
+    transition: 1s;
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 80px;
+}
+
+.fraqueza{
+    text-decoration: none;
+    color: red;
+}
+
+.fraqueza:hover{
+    transition: 1s;
+    color: white;
+    background-color: red;
+    border-radius: 80px;
+}
+
+.oport{
+    text-decoration: none;
+    color: rgb(14, 199, 14);
+}
+
+.oport:hover{transition: 1s;
+    color: white;
+    background-color: rgb(14, 199, 14);
+    border-radius: 80px;
+}
+
+.ameaca{
+    text-decoration: none;
+    color: orange;
+}
+
+.ameaca:hover{
+    transition: 1s;
+    color: white;
+    background-color: orange;
+    border-radius: 80px;
+}
+
+li a:hover{
+    transition: 1s;
+    color: white;
+    border-radius: 80px;
+    padding: 10px 15px;
+}
+
+.swot{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    color: dodgerblue;
+    margin-top: -50px;
+    cursor: pointer;
+}
+
+.front{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    color: dodgerblue;
+    cursor: pointer;
+}
+
+.logo{
+    text-align: left;
+    margin-top: -70px;
+    margin-left: 10px;
+}
+
+/*CONTEUDO DO SITE*/
+
+main{
+    margin: 130px;
+    margin-left: 500px;
+    margin-right: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align:left;
+    
+}
+
+.topico1{
+    color: dodgerblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-top: -40px;
+    cursor:context-menu;
+    text-align: justify;
+}
+
+.conteudo1{
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    cursor: context-menu;
+    text-align: justify;
+}
+
+.topico2{
+    color: dodgerblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-top: -40px;
+    cursor:context-menu;
+    text-align: justify;
+}
+
+.conteudo2{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    cursor: context-menu;
+    text-align: justify;
+}
+
+/*RODAPE DO SITE*/
+
+footer{
+    height: 145px;
+    background-color: rgba(0, 0, 0, 0.507);
+    background: linear-gradient(rgba(172, 172, 172, 0.082), rgba(0, 0, 0, 0.486), rgba(0, 0, 0, 0.89));
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+.titulo{
+    padding: 5px;
+    color: dodgerblue;
+    cursor:context-menu;
+}
+
+.copy{
+    padding: 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    cursor:context-menu;
+}
+
+.rodape{
+    padding: 10px;
+    display: inline-block;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+
+.rodape:hover{
+    color: dodgerblue;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
